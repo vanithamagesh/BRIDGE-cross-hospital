@@ -1,0 +1,326 @@
+{
+ "subjects": [
+  {
+   "name": "chb01",
+   "dataset": "CHB-MIT",
+   "files": 75,
+   "hours": 73.3825,
+   "seizures": 11,
+   "age": 11.0
+  },
+  {
+   "name": "chb02",
+   "dataset": "CHB-MIT",
+   "files": 36,
+   "hours": 35.26638888888889,
+   "seizures": 3,
+   "age": 11.0
+  },
+  {
+   "name": "chb03",
+   "dataset": "CHB-MIT",
+   "files": 38,
+   "hours": 38.001666666666665,
+   "seizures": 7,
+   "age": 14.0
+  },
+  {
+   "name": "chb04",
+   "dataset": "CHB-MIT",
+   "files": 42,
+   "hours": 156.065,
+   "seizures": 4,
+   "age": 22.0
+  },
+  {
+   "name": "chb05",
+   "dataset": "CHB-MIT",
+   "files": 39,
+   "hours": 39.00277777777778,
+   "seizures": 5,
+   "age": 7.0
+  },
+  {
+   "name": "chb06",
+   "dataset": "CHB-MIT",
+   "files": 18,
+   "hours": 66.735,
+   "seizures": 10,
+   "age": 1.5
+  },
+  {
+   "name": "chb07",
+   "dataset": "CHB-MIT",
+   "files": 18,
+   "hours": 63.70222222222222,
+   "seizures": 3,
+   "age": 14.5
+  },
+  {
+   "name": "chb08",
+   "dataset": "CHB-MIT",
+   "files": 20,
+   "hours": 20.00638888888889,
+   "seizures": 5,
+   "age": 3.5
+  },
+  {
+   "name": "chb09",
+   "dataset": "CHB-MIT",
+   "files": 19,
+   "hours": 67.87166666666667,
+   "seizures": 4,
+   "age": 10.0
+  },
+  {
+   "name": "chb10",
+   "dataset": "CHB-MIT",
+   "files": 25,
+   "hours": 50.02333333333333,
+   "seizures": 7,
+   "age": 3.0
+  },
+  {
+   "name": "chb11",
+   "dataset": "CHB-MIT",
+   "files": 35,
+   "hours": 34.79361111111111,
+   "seizures": 3,
+   "age": 12.0
+  },
+  {
+   "name": "chb12",
+   "dataset": "CHB-MIT",
+   "files": 21,
+   "hours": 20.68777777777778,
+   "seizures": 27,
+   "age": 2.0
+  },
+  {
+   "name": "chb13",
+   "dataset": "CHB-MIT",
+   "files": 33,
+   "hours": 33.0,
+   "seizures": 12,
+   "age": 3.0
+  },
+  {
+   "name": "chb14",
+   "dataset": "CHB-MIT",
+   "files": 26,
+   "hours": 26.0,
+   "seizures": 8,
+   "age": 9.0
+  },
+  {
+   "name": "chb15",
+   "dataset": "CHB-MIT",
+   "files": 40,
+   "hours": 40.01,
+   "seizures": 20,
+   "age": 16.0
+  },
+  {
+   "name": "chb16",
+   "dataset": "CHB-MIT",
+   "files": 19,
+   "hours": 19.0,
+   "seizures": 10,
+   "age": 7.0
+  },
+  {
+   "name": "chb17",
+   "dataset": "CHB-MIT",
+   "files": 21,
+   "hours": 21.006666666666668,
+   "seizures": 3,
+   "age": 12.0
+  },
+  {
+   "name": "chb18",
+   "dataset": "CHB-MIT",
+   "files": 36,
+   "hours": 35.63472222222222,
+   "seizures": 6,
+   "age": 18.0
+  },
+  {
+   "name": "chb19",
+   "dataset": "CHB-MIT",
+   "files": 30,
+   "hours": 29.929444444444446,
+   "seizures": 3,
+   "age": 19.0
+  },
+  {
+   "name": "chb20",
+   "dataset": "CHB-MIT",
+   "files": 29,
+   "hours": 27.601666666666667,
+   "seizures": 8,
+   "age": 6.0
+  },
+  {
+   "name": "chb22",
+   "dataset": "CHB-MIT",
+   "files": 31,
+   "hours": 31.003055555555555,
+   "seizures": 3,
+   "age": 9.0
+  },
+  {
+   "name": "chb23",
+   "dataset": "CHB-MIT",
+   "files": 9,
+   "hours": 26.558333333333334,
+   "seizures": 7,
+   "age": 6.0
+  },
+  {
+   "name": "chb24",
+   "dataset": "CHB-MIT",
+   "files": 22,
+   "hours": 21.296388888888888,
+   "seizures": 16,
+   "age": null
+  },
+  {
+   "name": "PN00",
+   "dataset": "Siena",
+   "files": 5,
+   "hours": 3.2447222222222223,
+   "seizures": 5,
+   "age": 55.0
+  },
+  {
+   "name": "PN01",
+   "dataset": "Siena",
+   "files": 1,
+   "hours": 13.488055555555556,
+   "seizures": 2,
+   "age": 46.0
+  },
+  {
+   "name": "PN03",
+   "dataset": "Siena",
+   "files": 2,
+   "hours": 24.22694444444444,
+   "seizures": 2,
+   "age": 54.0
+  },
+  {
+   "name": "PN05",
+   "dataset": "Siena",
+   "files": 3,
+   "hours": 6.035277777777777,
+   "seizures": 3,
+   "age": 51.0
+  },
+  {
+   "name": "PN06",
+   "dataset": "Siena",
+   "files": 5,
+   "hours": 12.072777777777777,
+   "seizures": 5,
+   "age": 36.0
+  },
+  {
+   "name": "PN07",
+   "dataset": "Siena",
+   "files": 1,
+   "hours": 8.735555555555555,
+   "seizures": 1,
+   "age": 20.0
+  },
+  {
+   "name": "PN09",
+   "dataset": "Siena",
+   "files": 3,
+   "hours": 6.8475,
+   "seizures": 3,
+   "age": 27.0
+  },
+  {
+   "name": "PN10",
+   "dataset": "Siena",
+   "files": 6,
+   "hours": 18.726944444444445,
+   "seizures": 10,
+   "age": 25.0
+  },
+  {
+   "name": "PN11",
+   "dataset": "Siena",
+   "files": 1,
+   "hours": 2.410277777777778,
+   "seizures": 1,
+   "age": 58.0
+  },
+  {
+   "name": "PN12",
+   "dataset": "Siena",
+   "files": 3,
+   "hours": 6.099166666666666,
+   "seizures": 4,
+   "age": 71.0
+  },
+  {
+   "name": "PN13",
+   "dataset": "Siena",
+   "files": 3,
+   "hours": 8.665,
+   "seizures": 3,
+   "age": 34.0
+  },
+  {
+   "name": "PN14",
+   "dataset": "Siena",
+   "files": 4,
+   "hours": 20.46388888888889,
+   "seizures": 4,
+   "age": 49.0
+  },
+  {
+   "name": "PN16",
+   "dataset": "Siena",
+   "files": 2,
+   "hours": 4.879722222222222,
+   "seizures": 2,
+   "age": 41.0
+  },
+  {
+   "name": "PN17",
+   "dataset": "Siena",
+   "files": 2,
+   "hours": 5.124722222222222,
+   "seizures": 2,
+   "age": 42.0
+  }
+ ],
+ "notes": [
+  "chb07/chb07_18.edf: listed with seizures but none parsed; skipped",
+  "PN00 PN00-3.edf: seizure end 4425 s reduced by 1 h (the seizure would last 3660 s)",
+  "PN01: file name PN01.edf read as PN01-1.edf",
+  "PN11: file name PN11-.edf read as PN11-1.edf"
+ ],
+ "skipped": {
+  "chb__chb12__chb12_27.edf": "KeyError: \"missing channels ['FP1-F7', 'F7-T7', 'T7-P7', 'P7-O1', 'FP1-F3', 'F3-C3', 'C3-P3', 'P3-O1', 'FP2-F4', 'F4-C4', 'C4-P4', 'P4-O2', 'FP2-F8', 'F8-T8', 'T8-P8', 'P8-O2', 'FZ-CZ', 'CZ-PZ']\"",
+  "chb__chb12__chb12_28.edf": "KeyError: \"missing channels ['FP1-F7', 'F7-T7', 'T7-P7', 'P7-O1', 'FP1-F3', 'F3-C3', 'C3-P3', 'P3-O1', 'FP2-F4', 'F4-C4', 'C4-P4', 'P4-O2', 'FP2-F8', 'F8-T8', 'T8-P8', 'P8-O2', 'FZ-CZ', 'CZ-PZ']\"",
+  "chb__chb12__chb12_29.edf": "KeyError: \"missing channels ['FP1-F7', 'F7-T7', 'T7-P7', 'P7-O1', 'FP1-F3', 'F3-C3', 'C3-P3', 'P3-O1', 'FP2-F4', 'F4-C4', 'C4-P4', 'P4-O2', 'FP2-F8', 'F8-T8', 'T8-P8', 'P8-O2', 'FZ-CZ', 'CZ-PZ']\""
+ },
+ "windows": 1005793,
+ "ictal_windows": 3491,
+ "augmented": 10496,
+ "CHB-MIT": {
+  "subjects": 23,
+  "files": 682,
+  "hours": 976.5786111111111,
+  "seizures": 185
+ },
+ "Siena": {
+  "subjects": 14,
+  "files": 41,
+  "hours": 141.02055555555555,
+  "seizures": 47
+ }
+}
