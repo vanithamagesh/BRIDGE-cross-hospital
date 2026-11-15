@@ -24,6 +24,28 @@ The study tests seizure detectors in a hospital they were not trained in. Detect
 
 All numbers are in `results/`.
 
+## Reference-variant comparison
+
+A separate run compares the paper's moving reference with two alternatives, everything else unchanged: a **fixed per-subject median** (one constant per subject, over all of that subject's windows, in the manner of a median baseline correction with a per-subject offset) and a **location-scale** version (the referenced features divided by the running interquartile range of the same 150 windows). Event F1 at the threshold chosen in the training hospital, mean ± s.d. over seeds 0–4, 18 channels:
+
+| | Running median (10 min) | Fixed per-subject median | Location-scale |
+|---|---|---|---|
+| CHB-MIT → Siena, BRIDGE | **0.56 ± 0.08** | 0.43 ± 0.07 | 0.57 ± 0.05 |
+| CHB-MIT → Siena, GBDT | 0.48 ± 0.05 | 0.40 ± 0.02 | 0.54 ± 0.04 |
+| Siena → CHB-MIT, BRIDGE | **0.38 ± 0.02** | 0.30 ± 0.03 | 0.38 ± 0.03 |
+| Siena → CHB-MIT, GBDT | 0.47 ± 0.02 | 0.33 ± 0.02 | 0.44 ± 0.03 |
+
+The moving reference was ahead of the fixed median in 19 of 20 seed-level comparisons, although the fixed median used each subject's full data, including the test recordings. Baselines of 2.5, 5 and 20 minutes transferred as well as 10 minutes (seed 0), so the length is not a tuned setting. Within one hospital the three references did not differ consistently.
+
+Reproduce it with:
+
+```
+!python bridge_static_baseline_v1_3.py --smoke   # quick pipeline check
+!python bridge_static_baseline_v1_3.py          # reuses the feature cache; outputs in /content/xhosp_static_out
+```
+
+The script patches `bridge_cross_hospital.py` in memory, writes the patched copy as `bridge_cross_hospital_cmp.py` and runs it, so the main script stays untouched. All numbers are in `results_comparison/`.
+
 ## Data
 
 Both databases are open access and are downloaded automatically from the PhysioNet AWS open-data mirror.
@@ -96,6 +118,8 @@ python figures/make_fig1_chain.py results/figures   # Fig. 1 (chain, protocol, c
 | `results/shift.csv` | Hospital identifiability and per-feature differences |
 | `results/stream_*.csv` | Streaming timing, memory, int8 effect and agreement with the offline pipeline |
 | `results/dataset.json` | Subjects, hours, seizures, ages, skipped files and annotation corrections |
+| `bridge_static_baseline_v1_3.py` | Reference-variant comparison (fixed per-subject median, location-scale, baseline lengths, five seeds) |
+| `results_comparison/` | Results of that comparison: `comparison_summary.csv` (mean ± s.d. over seeds), per-run and per-subject scores, threshold sweeps |
 
 ## Citation
 
